@@ -11,8 +11,14 @@ html {
   font-size: "Poppins", sans-serif;
 }
 
+.front-col1 h1{
+  color: #03045E;
+}
+
 h1{
     font-family: 'Archivo Black', cursive;
+    color: #A367B1;
+    font-size: 6vw;
 }
 
 .header {
@@ -101,9 +107,16 @@ button {
   margin-top: 20px;
   padding: 1.7vw;
   font-size: 1.5vw;
+  background-color: #ac92c7;
+  color: #03045E;
+  border-radius: 8px;
+  cursor: pointer;
+  border-color: #03045E;
+}
+
+button:hover {
   background-color: #03045E;
-  border: none;
-  color: white;
+  color: #ac92c7;
 }
 
 
@@ -134,4 +147,8 @@ header img{
 
 .col ul li{
     text-decoration: underline;
+}
+.contact footer{
+  margin:auto;
+  display: flex;
 }
